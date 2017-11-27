@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Quora Question Pairs</title>
+
+    <style>
+
+        /* LOGO */
+        img{
+          width: 400px;
+          height: auto;
+        }
+
+        .quora {
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          clear: both;
+          padding-top: 112px;
+          padding-bottom: 20px;
+        }
+
+        /* FORM */
+        .form {
+          text-align: center;
+        }
+
+        .button{
+          text-align: center;
+          width: 170px;
+          background-color: #EAEDED;
+          border: none;
+          color: #4D5656;
+          padding: 15px 32px;
+          display: inline-block;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .searchbox {
+          width: 550px;
+          height: 40px;
+          font-size: 18px;
+          border-style: ;
+        }
+
+        /* TABLE */
+        #questions {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #questions td, #questions th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #questions tr:nth-child(even){background-color: #f2f2f2;}
+
+        #questions tr:hover {background-color: #ddd;}
+
+        #questions th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #626567;
+            color: white;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="quora">
+      <a href="#" id="quora_logo">
+            <img src="https://qph.ec.quoracdn.net/main-qimg-01429e8e67b9a933d09e1791ed4b324e" alt="Quora Logo"/>
+      </a>
+    </div>
+
+    <div class="form">
+      <form id="quora_page" method="post" action="/quora/">
+            {% csrf_token %}
+          <input type="text" name="question" placeholder="Search Quora" class="searchbox">
+          <br>
+          <br>
+          <button type="submit" id="quora_search" class= "button">Quora Search</button>
+      </form>
+    </div>
+    <br>
+    <br>
+      <div>
+          <table id="questions">
+              <thead>
+                  <tr>
+                    <th>Quora Duplicate Question: </th>
+                  </tr>
+              </thead>
+              <tbody>
+              {% for key in data %}
+                  <tr>
+                      <td>{{ key }}</td>
+                  </tr>
+              {% endfor %}
+              </tbody>
+          </table>
+      </div>
+    </div>
+</body>
+</html>
