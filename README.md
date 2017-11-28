@@ -29,4 +29,4 @@ In this project, we are detecting the similarity between question by training th
 
  ### Output
     -  **Similar question** 
-      ![flowchart](./img/similarquestion.png)
+      ![alt text](./img/similarquestion.png)
