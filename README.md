@@ -32,7 +32,8 @@ In this project, we are detecting the similarity between question by training th
   
   
     <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” />
-    
+    &nbsp
+    &nbsp
     
     
     
