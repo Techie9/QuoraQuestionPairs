@@ -34,6 +34,8 @@ In this project, we are detecting the similarity between question by training th
     <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” />
     
     
+    
+    
     - **No duplicate Questions found** 
     
     
@@ -45,5 +47,5 @@ In this project, we are detecting the similarity between question by training th
      - **Console Results**
      
      
-      <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="400" height="400" ALIGN=”left” />
+      <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="800" height="400" ALIGN=”left” />
    
