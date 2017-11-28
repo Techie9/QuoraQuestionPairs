@@ -28,5 +28,6 @@ In this project, we are detecting the similarity between question by training th
       to the user the results of prediction.
       
  ### Output :
-    - Similar Question 
+  - **Similar Question** 
+    ![alt text](./similarquestion.png)
    
