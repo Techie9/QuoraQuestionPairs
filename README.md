@@ -29,5 +29,5 @@ In this project, we are detecting the similarity between question by training th
       
  ### Output :
   - **Similar Question** 
-    ![alt text](./similarquestion.png =100*100)
+    ![alt text](./similarquestion.png)
    
