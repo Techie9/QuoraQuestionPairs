@@ -35,10 +35,10 @@ In this project, we are detecting the similarity between question by training th
     
     
     - **No duplicate Questions found** 
-   
+      
    
      <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left” />
-   
+      <br/>
     - **Console Results**
     
       <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="800" height="400" ALIGN=”left” />
