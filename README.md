@@ -1,5 +1,5 @@
 # QuoraQuestionPairs
-In this project, we are detecting the similarity between question by training the XGboost model on the quora's dataset.
+In this project, we are detecting the similarity between questions by training the XGboost model on the quora's dataset.
 
 ## Description :
 
