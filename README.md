@@ -30,4 +30,5 @@ In this project, we are detecting the similarity between question by training th
  ### Output :
   - **Similar Question** 
     ![alt text](./similarquestion.png =150*150)
+    <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="200" height="400" />
    
