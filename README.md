@@ -37,7 +37,7 @@ In this project, we are detecting the similarity between question by training th
   - **No duplicate Questions found** 
       
    
-   <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left”       style="border:#000000" />
+   <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left”           style="border: #00008B 4px solid;" />
      
      
   - **Console Results**
