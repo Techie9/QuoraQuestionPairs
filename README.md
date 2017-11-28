@@ -26,8 +26,7 @@ In this project, we are detecting the similarity between question by training th
    -  **ConnectionFront.py**
       In this class , the request from user is given to the model for prediction . After receiving the prediction, we render 
       to the user the results of prediction.
-
+      
  ### Output :
-    -  **SimilarQuestion** 
-      ![alt text](./img/similarquestion.png)
-  
+    - Similar Question 
+   
