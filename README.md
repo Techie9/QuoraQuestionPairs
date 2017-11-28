@@ -29,24 +29,17 @@ In this project, we are detecting the similarity between question by training th
       
  ### Output :
   - **Similar Question** 
-    &nbsp
-    &nbsp
-    &nbsp
+   
     <img src="./similarquestion.png" data-canonical-src="./similarquestion.png" width="400" height="400" ALIGN=”left” />
-    &nbsp
-    &nbsp
-    &nbsp
+    <br/>
+    
+    
     - **No duplicate Questions found** 
-    &nbsp
-    &nbsp
-    &nbsp
+   
+   
      <img src="./Nopresent.png" data-canonical-src="./Nopresent.png" width="400" height="400" ALIGN=”left” />
-    &nbsp
-    &nbsp
-    &nbsp
+   
     - **Console Results**
-    &nbsp
-    &nbsp
-    &nbsp
+    
       <img src="./consoleResults.png" data-canonical-src="./consoleResults.png" width="800" height="400" ALIGN=”left” />
    
